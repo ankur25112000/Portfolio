@@ -1,0 +1,252 @@
+body{
+    margin: 0;
+    text-align: center;
+       
+}
+/**********************************************************************************************************/
+/*ABOUT-ME-CONTAINER*/
+
+.about-me-header{
+    margin-top: 0px;
+    padding-top: 260px;
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    font-size: 100px;
+    color: #363062;
+}
+
+.about-me{
+    font-family: 'Volkhov', serif;
+    color: #363062;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    text-align: left;
+    font-size: 50px;
+}
+
+.about-me-text{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #1b6ca8;
+    font-size: 20px;
+}
+
+.about-me-list{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #1b6ca8;
+    font-size: 20px;
+}
+
+.about-me-image{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    right: 100px;
+    top: 780px;
+}
+
+.about-me-container{
+    padding: 40px;
+    background-color: #ddf3f5;
+}
+
+/**********************************************************************************************************/
+/*SKILLS-CONATINER*/
+
+.skill-container{
+    padding: 40px;
+    background-color: #ddf3f5;
+}
+
+.skills-header{
+    font-family: 'Volkhov', serif;
+    color: #363062;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    text-align: left;
+    font-size: 50px;
+}
+
+.skills-tech{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #1b6ca8;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.skills-tech-name{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #1b6ca8;
+    font-size: 20px;
+    margin-bottom: 0px;
+}
+
+.carousel-item{
+    height: 220px;
+    width: 200px;
+}
+
+.d-block-w-100{
+
+    position: relative;
+    left: 150px;
+    height: 200px;
+    width: 200px;
+}
+
+.d-block-p{
+    position: relative;
+    left: 390px;
+    bottom: 150px;
+    color: #163147;
+    font-family: 'Volkhov', serif;
+    font-style: italic;
+    font-size: 20px;
+}
+
+/**********************************************************************************************************/
+/*PROJECT-CONTAINER*/
+.project-conatiner{
+    padding: 40px;
+    background-color: #ddf3f5;
+    height: 380px;
+}
+
+.project{
+    font-family: 'Volkhov', serif;
+    color: #363062;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    text-align: left;
+    font-size: 50px;
+}
+
+.project-container-text{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #1b6ca8;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.project-container-link{
+    font-family: 'Volkhov', serif;
+    position: relative;
+    left: 90px;
+    bottom: 100px;
+    color: #0483e4;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.project-container-img{
+    position: relative;
+    right: 150px;
+    bottom: 100px;
+    height: 55px;
+    width: 55px;
+}
+
+.project-conatiner-icon{
+    position: relative;
+    left: 800px;
+    bottom: 150px;
+    height: 250px;
+    width: 250px;
+}
+
+/**********************************************************************************************************/
+/*EXPERIENCE-CONTAINER*/
+
+.experience-container{
+    padding: 40px;
+    background-color: #ddf3f5;
+}
+
+.experience{
+    font-family: 'Volkhov', serif;
+    color: #363062;
+    margin-top: 10px;
+    margin-bottom: 10px;    
+    text-align: left;
+    font-size: 50px;
+}
+
+.experience-text{
+    font-family: 'Volkhov', serif;
+    text-align: left;
+    color: #1b6ca8;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+
+/**********************************************************************************************************/
+/*CONTACT-CONTAINER*/
+
+.contact-container-call{
+    text-align: center;
+    padding-top: 40px;
+    font-family: 'Volkhov', serif;
+    font-size: 30px;
+    color: #363062;
+}
+
+.contact-container-mail{
+    text-align: center;
+    font-family: 'Volkhov', serif;
+    font-size: 30px;
+    color: #363062;
+}
+/**********************************************************************************************************/
+/*PARALLAX-CONTAINER*/
+
+
+
+.parallax {
+    /* The image used */
+    background-image: url("../images/43326.jpg");
+
+  
+    /* Set a specific height */
+    min-height: 740px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.parallax-mid{
+     /* The image used */
+     background-image: url("../images/43326.jpg");
+
+  
+     /* Set a specific height */
+     min-height: 20px; 
+   
+     /* Create the parallax scrolling effect */
+     background-attachment: fixed;
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+}
+
+.parallax-bottom{
+    /* The image used */
+    background-image: url("../images/43326.jpg");
+
+  
+    /* Set a specific height */
+    min-height: 200px; 
+  
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
